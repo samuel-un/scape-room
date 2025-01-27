@@ -1,72 +1,89 @@
-# Getting Started with Create React App
+# Scape Room - Task List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Description
 
-## Available Scripts
+This exercise involves creating a small **task list application** to practice building functional components with React. The project serves as a hands-on opportunity to deepen your understanding of React concepts while developing a simple yet functional app. 
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   [Owner](#owner)
+-   [Features](#features)
+-   [Technologies](#technologies)
+-   [How to Download and Use](#how-to-download-and-use)
+-   [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### Owner
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Samuel UN [GitHub](https://github.com/samuel-un)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   Add tasks to a list with a simple input form.
+-   Delete tasks by clicking a button.
+-   Update existing tasks directly in the UI.
+-   Responsive and intuitive interface.
+-   Clear error handling for seamless user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### Technologies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-   **Frontend**: HTML5, CSS3, JavaScript.
+-   **Libraries**: React.
+-   **Version Control**: Git and GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### How to Download and Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Clone the Repository**
+Open your terminal and run the following command:
 
-## Learn More
+```bash
+git clone https://github.com/samuel-un/scape-room
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Navigate to the Project Folder**
+Go to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd scape-room-react
+```
 
-### Code Splitting
+**Install Dependencies**
+Ensure you have Node.js installed on your system. Then, install the required packages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+**Run the Application**
+Start the development server to launch the app:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm start
+```
 
-### Making a Progressive Web App
+**Open in Browser**
+The app will open automatically in your default browser. If not, navigate to [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Build and Deploy**
+Build the app for production:
 
-### Advanced Configuration
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The production-ready code will be available in the `build` folder.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### License
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# scape-room
-# scape-room
+This project is licensed under the MIT License.
